@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body{
+    font-family: sans-serif;
+    /* tamanho da fonte
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+
+        utilizar apenas px e em
+    */
+    
+}
+h1{
+   
+
+    /*Ordem para utilização shorthand
+     simplicar declaração de font no css, mais tem que
+     seguir a ordem.
+
+     font-style -> font-weight -> font-size -> font-family
+        font-size: 3em;
+        font-weight: normal;
+        font-style: italic;
+        text-decoration: underline;
+    
+    */
+    font: italic bolder 3em 'work sans', sans-serif;
+}
+h2{
+    font: bold 2em 'work sans'
+}

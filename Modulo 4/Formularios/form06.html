@@ -8,9 +8,23 @@
 </head>
 <body>
     <h1>Teste de Formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <fieldset>
-            <legend></legend>
+            <legend>Cor</legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Nivel de Satisfação</legend>
+            <label for="inivel">NIvel:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="5">
+        </fieldset>
+        <fieldset>
+            <legend>Enviar arquivo</legend>
+            <label for="ifoto">Foto do Perfil:</label>
+            <input type="file" name="foto" id="ifoto">
         </fieldset>
     </form>
     

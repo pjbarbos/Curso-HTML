@@ -14,10 +14,11 @@ Grandes telas: acima de 1200px
         font-family: 'Courier New', Courier, monospace;
     }
     body{
-        background-image: url(../imagem/back-print.jpg);/*Desnecessario*/
+        background-image: url(../imagem/back-print.jpg);
     }
     main{
         width: 90vw;
+        height: 90vh;
        border: 2px solid black; 
     }
     main::after{
@@ -28,6 +29,11 @@ Grandes telas: acima de 1200px
         text-shadow: none;
         color: black;
     }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
 }
 
 /*Tablet*/
